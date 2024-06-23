@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+nav ul li {
+    float: left;
+
+}
+nav ul li a {
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #111;
+}
+/* .hero {
+    background-color: yellow;
+    text-align: center;
+    padding: 50px 0;
+} */
+ .form, .team, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+
+//slider
+/* styles.css */
+
+/* body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+} */
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+//about
+.about-image img {
+    height: 300px;
+    /* Set a fixed height */
+    width: 100%;
+    /* Ensure images fill their container */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover container */
+}
+
+//team 
+.team-member {
+    padding: 20px;
+}
+
+.team-member img {
+    max-width: 150px; /* Adjust max-width of the image */
+}
+
+.team-member h3 {
+    font-size: 1.5rem; /* Example custom font size */
+    margin-bottom: 10px; /* Example custom margin */
+}
+
+.team-member p {
+    font-size: 1rem; /* Example custom font size */
+}

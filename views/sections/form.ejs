@@ -1,0 +1,62 @@
+<section class="form" id="form">
+    <!-- Form Section -->
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Form</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form id="contactForm" method="POST" action="submit.php">
+                    <!-- Name -->
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <!-- Phone Number -->
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone number</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+
+                    <!-- Gender -->
+                    <div class="mb-3">
+                        <label class="form-label">Gender</label><br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="genderMale" value="male" required>
+                            <label class="form-check-label" for="genderMale">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="genderFemale" value="female">
+                            <label class="form-check-label" for="genderFemale">Female</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="genderOther" value="other">
+                            <label class="form-check-label" for="genderOther">Other</label>
+                        </div>
+                    </div>
+
+                    <!-- Language Drop-down -->
+                    <div class="mb-3">
+                        <label for="language" class="form-label">Preferred Language</label>
+                        <select class="form-select" id="language" name="language">
+                <option value="english">English</option>
+                <option value="spanish">Spanish</option>
+                <option value="french">French</option>
+                <option value="german">German</option>
+                <option value="other">Other</option>
+            </select>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
